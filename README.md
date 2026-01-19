@@ -6,8 +6,6 @@
 Chaque agent est soumis à des règles locales simples et possède des caractéristiques propres, qui peuvent évoluer au fil des générations grâce à un algorithme inspiré de la **sélection naturelle**.  
 Cette simulation permet d’observer l’émergence de comportements **coopératifs ou égoïstes** dans un monde simple mais dynamique.
 
----
-
 ## Principe de fonctionnement
 - **Génération initiale :**  
   La première génération (n°0) est composée d’un unique individu. Chaque agent possède plusieurs caractéristiques :  
@@ -35,8 +33,6 @@ Cette simulation permet d’observer l’émergence de comportements **coopérat
 
 Cette mécanique permet d’observer **comment l’égoïsme et la coopération influencent la survie et la reproduction** des agents au fil des générations.
 
----
-
 ## Technologies
 - **Python**  
 - **Pygame** – animation et affichage des agents et ressources  
@@ -49,8 +45,6 @@ Cette mécanique permet d’observer **comment l’égoïsme et la coopération 
 **BonhommeInc** is a multi-agent simulation where small agents aim to **survive and reproduce** by collecting resources.  
 Each agent follows simple local rules and has individual traits that can evolve over generations thanks to a simplified **natural selection algorithm**.  
 This simulation allows observing the emergence of **cooperative or selfish behaviors** in a simple yet dynamic world.
-
----
 
 ## How it works
 - **Initial generation:**  
@@ -79,7 +73,6 @@ This simulation allows observing the emergence of **cooperative or selfish behav
 
 This mechanism allows observing **how selfishness and cooperation influence survival and reproduction** across generations.
 
----
 
 ## Technologies
 - **Python**  
