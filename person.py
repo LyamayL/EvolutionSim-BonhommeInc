@@ -15,7 +15,7 @@ class Person:
         self.vy = vy
         self.vitesse = vitesse
         self.selfishness = selfishness
-        self.color = (0, 0, 0)
+        self.color = (0, int(255 * (1 - self.selfishness / 6)), 0)
         self.rad = 20
         self.vision = vision
         self.foodCounter = 0
@@ -25,7 +25,7 @@ class Person:
 
 
     def draw(self):
-        pygame.draw.circle(self.screen, (0, 0, 255), (self.x, self.y), self.vision, width=5)
+        #pygame.draw.circle(self.screen, (0, 0, 255), (self.x, self.y), self.vision, width=5)
         pygame.draw.circle(self.screen, self.color, (self.x, self.y), self.rad)
 
     def move(self):
