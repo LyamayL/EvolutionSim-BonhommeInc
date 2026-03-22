@@ -1,5 +1,5 @@
 # EvolutionSim-BonhommeInc
-**Projet Personnel – 2025/2026**
+**Projet Personnel – Decembre 2025 - Janvier 2026**
 
 ## 🇫🇷 - Présentation
 **BonhommeInc** est une simulation multi-agents dans laquelle de petits agents ont pour objectif de **survivre et se reproduire** en collectant des ressources.  
